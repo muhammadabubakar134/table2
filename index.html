@@ -7,9 +7,17 @@
 
 </head>
 <body>
-    
+    <script>
+        var inputNum=prompt("enter any number");
+        var result=0;
+        document.write("multiples of :" + inputNum + "<br/>");
+        for(var i=1;i<=10;i++) {
+            result = inputNum *i;
+            document.write(inputNum + "*" + i + "=" + result + "<br/>");
+        }
+    </script>
 
-<h1> Table of 2</h1>
+<!--h1> Table of 2</h1>
 <button onclick="showTable()">Show Table</button>
 <script>
  function showTable() {
@@ -24,7 +32,7 @@
             alert("You did not enter '2'. Please try again.");
         }
     }
-</script>
+</script-->
 
 </body>
 </html>
